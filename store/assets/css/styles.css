@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f6f8;
+    font-family: "Fira Sans" sans-serif;
+    position: relative;
+    min-height: 100vh !important;
+}
+
+.navBtn:hover {
+    color: #2250dd;
+    background-color: #d2ddff;
+}
+
+.logoutBtn:hover {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, .1);
+}
+
+footer {
+    
+    position: absolute;
+    bottom: 0vh;
+    transform: translateY(100%);
+    width: 100%;
+    padding: 10px 0;
+}

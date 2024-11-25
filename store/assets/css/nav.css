@@ -1,0 +1,27 @@
+:root {
+    --p-clr: #2250dd;
+    --i-clr: #000000a6;
+}
+
+.navbar-brand {
+    color: var(--p-clr);
+    font-weight: 700;
+}
+
+#cartQty {
+    background-color: var(--p-clr);
+}
+
+.icon-size {
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    color: var(--i-clr);
+    border-color: transparent;
+}
+
+.btn-person {
+    border-radius: 0;
+    border: 1px solid var(--i-clr) !important;
+}
